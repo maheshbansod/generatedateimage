@@ -13,11 +13,13 @@ setup(
     description="A package which creates an image which shows the current date",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/your_package/homepage/",
+    url="https://github.com/maheshbansod/generatedateimage",
     packages=find_packages(),
     install_requires=requirements,
+    license="MIT",
     classifiers=[
-        "Programming Language :: Python :: 3.7",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+       "License :: OSI Approved :: MIT License",
+       "Programming Language :: Python :: 3",
+       "Programming Language :: Python :: 3.7",
     ],
 )
