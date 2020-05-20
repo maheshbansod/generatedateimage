@@ -7,7 +7,7 @@ requirements = ["pillow"]
 
 setup(
     name="generatedateimage",
-    version="0.0.2",
+    version="0.0.4",
     author="Mahesh Bansod",
     author_email="mahesh0bansod@gmail.com",
     description="A package which creates an image which shows the current date",

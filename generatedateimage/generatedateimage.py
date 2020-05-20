@@ -14,7 +14,7 @@ def generateDateImage():
     
     todaystr = datetime.date.today().strftime("%B %d, %Y")
     
-    fontloc = 'res/BalsamiqSans-Bold.ttf'
+    fontloc = 'generatedateimage/res/BalsamiqSans-Bold.ttf'
 
     font = ImageFont.truetype(fontloc, size=100)
     img = Image.new('RGB', (500, 500))

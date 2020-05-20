@@ -5,7 +5,7 @@ Creates an image called image.png containing the current date
 `pip install generatedateimage`
 ## Usage
 ```
-from generatedateimage import generatedateimage  
+>>> from generatedateimage import generatedateimage
+>>> generatedateimage.generateDateImage()
 
-generatedateimage()
 ```
